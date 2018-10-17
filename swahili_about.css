@@ -1,3 +1,11 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0px;
+}
+
 p, .nav {
   font-family: geneva;
   font-size: 18px;
@@ -20,9 +28,12 @@ h2 {
 .nav a {
   padding: 6px;
   border: 2px solid teal;
-  border-radius: 5px;
+  border-radius: 2px;
   color: white;
   background: teal;
+  margin-left: 10px;
+  margin-right: 10px;
+  text-decoration: none;
 }
 
 .nav a:hover {
@@ -32,4 +43,12 @@ h2 {
 
 .nav {
   padding-top: 30px;
+  margin: 0px;
+  background-color: rgba(0,128,128,0.5);
+  padding-bottom: 30px;
+  width: 100%;
+}
+
+p {
+  padding:
 }
